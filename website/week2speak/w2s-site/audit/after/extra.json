@@ -1,0 +1,156 @@
+{
+ "m/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/speech-mode/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/games/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/shadowing/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/7-day-sprint/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/course/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/tutor/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/join/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/common-mistakes/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/about/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "m/privacy/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/": {
+  "cls": 0.001,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/speech-mode/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/games/": {
+  "cls": 0.217,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/shadowing/": {
+  "cls": 0.088,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/7-day-sprint/": {
+  "cls": 0.372,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/course/": {
+  "cls": 0.358,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/tutor/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/join/": {
+  "cls": 0.001,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/common-mistakes/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/about/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ },
+ "d/privacy/": {
+  "cls": 0.001,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": []
+ }
+}

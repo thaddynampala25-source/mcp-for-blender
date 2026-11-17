@@ -1,0 +1,3 @@
+const NULL_EL = new Proxy(() => {}, {get: (t, k) => k === Symbol.toPrimitive ? (() => '') : (k === Symbol.iterator || k === 'then') ? undefined : k === 'length' ? 0 : (k === 'toString' || k === 'valueOf') ? (() => '') : NULL_EL, set: () => true, apply: () => NULL_EL, has: () => false});
+const $ = (s, r = document) => (!r || r === NULL_EL) ? NULL_EL : (r.querySelector(s) || NULL_EL);
+const $$ = (s, r = document) => (!r || r === NULL_EL) ? [] : Array.from(r.querySelectorAll(s));

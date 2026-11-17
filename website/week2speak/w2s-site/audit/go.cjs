@@ -1,0 +1,2 @@
+const {chromium} = require('playwright');
+(async () => { const b = await chromium.launch(); for (const port of [8766, 8765]) { const p = await b.newPage({viewport: {width: 1280, height: 800}}); try { await p.goto('http://localhost:' + port + '/course/', {waitUntil: 'networkidle'}); await p.waitForTimeout(500); console.log(port, await p.evaluate(() => [...document.querySelectorAll('#lesson a[data-go]')].map(a => a.getAttribute('href') + '|' + a.dataset.go).join('  '))); } catch (e) { console.log(port, 'ERR', e.message.slice(0, 80)); } await p.close(); } await b.close(); })();

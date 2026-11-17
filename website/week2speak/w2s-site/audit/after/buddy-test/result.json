@@ -1,0 +1,245 @@
+{
+ "loaded": {
+  "id": "mila",
+  "rig": "w2s-1",
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "name": "Ruby",
+  "is3d": true,
+  "state": "landing"
+ },
+ "lipsync": {
+  "spoke": true,
+  "mouthMaxWhileSpeaking": 0.75,
+  "wordsHighlighted": 9,
+  "mouthAfter": 0,
+  "stateAfter": "turn",
+  "pass": true
+ },
+ "pokes": {
+  "hit": [
+   "face>face",
+   "hair>hair",
+   "torso>torso",
+   "arm>arm",
+   "prop>prop",
+   "face>face",
+   "hair>hair",
+   "torso>torso",
+   "arm>arm",
+   "prop>prop",
+   "face>face",
+   "torso>torso"
+  ],
+  "log": [
+   "giggle",
+   "startled",
+   "tickle",
+   "shrug",
+   "sip",
+   "boop",
+   "hairflick",
+   "tickle",
+   "wave",
+   "sip",
+   "giggle",
+   "shrug"
+  ],
+  "distinct": [
+   "giggle",
+   "startled",
+   "tickle",
+   "shrug",
+   "sip",
+   "boop",
+   "hairflick",
+   "wave"
+  ],
+  "repeats": 0,
+  "pass": true
+ },
+ "rapid": {
+  "last": "sideeye",
+  "pass": true
+ },
+ "spin": {
+  "radiansDragged": 7.3,
+  "turns": 1.16,
+  "degrees": 418,
+  "pass": true
+ },
+ "delights": {
+  "helicopter": true,
+  "shades": true,
+  "inflate": true,
+  "pass": true
+ },
+ "conversation": {
+  "afterMistake": "oops",
+  "card": 1,
+  "afterGood": "good",
+  "afterHelp": "help",
+  "hintOpen": 1,
+  "listening": true,
+  "pass": true
+ },
+ "replay": {
+  "speaking": true,
+  "pass": true
+ },
+ "switch": {
+  "afterTap": {
+   "id": "rio",
+   "name": "Max",
+   "speaker": "Max",
+   "live": "Max is your Buddy now",
+   "saved": "rio",
+   "gender": "m"
+  },
+  "afterReload": {
+   "id": "rio",
+   "name": "Max"
+  },
+  "afterKeyboard": {
+   "id": "mila",
+   "name": "Ruby",
+   "live": "Ruby is your Buddy now"
+  },
+  "afterReload2": "mila",
+  "pass": true
+ },
+ "sound": {
+  "offPressed": "false",
+  "stored": "1",
+  "onPressed": "true",
+  "pass": true
+ },
+ "desktop": {
+  "stageShare": 0.52,
+  "stageH": 802,
+  "panelH": 802,
+  "conversationBeside": true,
+  "pass": true
+ },
+ "fps": {
+  "readout": "7 fps | 27 draw calls, 89k triangles | quality step 3 of 3 (1.00x, shadows off) | ANGLE (Google, Vulkan 1.3.0 (SwiftShader Devic",
+  "samples": [
+   "3fps q0",
+   "4fps q1",
+   "3fps q1",
+   "4fps q2",
+   "5fps q2",
+   "5fps q3",
+   "7fps q3",
+   "7fps q3",
+   "8fps q3"
+  ],
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "info": {
+   "ppu": 272,
+   "faceShare": 0.55,
+   "calls": 27,
+   "tris": 89010,
+   "slowFor": 3.9
+  },
+  "pass": true,
+  "hiddenWithoutFlag": true
+ },
+ "phone": {
+  "vh": 640,
+  "nav": 48,
+  "stageH": 516,
+  "barH": 76,
+  "barBottom": 640,
+  "mic": 64,
+  "faceY": 219,
+  "faceShare": 0.42,
+  "scrollY": 0,
+  "overflow": 0,
+  "kb": false,
+  "pass": true
+ },
+ "sheet": {
+  "open": true,
+  "has": true,
+  "focusInside": true,
+  "closedByEscape": true,
+  "pass": true
+ },
+ "keyboard": {
+  "vh": 350,
+  "nav": 48,
+  "stageH": 226,
+  "barH": 76,
+  "barBottom": 350,
+  "mic": 0,
+  "faceY": 146,
+  "faceShare": 0.33,
+  "scrollY": 0,
+  "overflow": 0,
+  "kb": true,
+  "stageShareOfScreen": 0.35,
+  "micHidden": true,
+  "fieldVisible": true,
+  "pass": true,
+  "restored": true
+ },
+ "pause": {
+  "runningOffScreen": false,
+  "runningOnScreen": true,
+  "pass": true
+ },
+ "noMic": {
+  "hasMic": false,
+  "micVisible": false,
+  "fieldLeft": 8,
+  "fieldW": 237,
+  "pass": true
+ },
+ "reducedMotion": {
+  "flag": true,
+  "mouthMax": 0.552,
+  "hopMax": 0,
+  "switched": "rio",
+  "sheetTransition": "0s",
+  "pass": true
+ },
+ "noWebGL": {
+  "no3d": true,
+  "is3d": false,
+  "picture": "/assets/buddies/ruby.webp",
+  "pictureLoaded": true,
+  "alt": "Ruby, a Language Buddy",
+  "subtitle": "Hi there! Welcome. What can I ",
+  "fixCard": 1,
+  "afterSwitch": {
+   "name": "Max",
+   "picture": "/assets/buddies/max.webp"
+  },
+  "pass": true
+ },
+ "errors": [],
+ "externalHosts": [],
+ "summary": {
+  "lipsync": true,
+  "pokes": true,
+  "rapid": true,
+  "spin": true,
+  "delights": true,
+  "conversation": true,
+  "replay": true,
+  "switch": true,
+  "sound": true,
+  "desktop": true,
+  "fps": true,
+  "phone": true,
+  "sheet": true,
+  "keyboard": true,
+  "pause": true,
+  "noMic": true,
+  "reducedMotion": true,
+  "noWebGL": true,
+  "noErrors": true,
+  "noExternalRequests": true
+ },
+ "allPass": true
+}

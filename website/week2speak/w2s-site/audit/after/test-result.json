@@ -1,0 +1,119 @@
+{
+ "errs": [],
+ "res": {
+  "/": {
+   "title": "Week2Speak: Speak English in 7 Days for Spanish Speakers",
+   "h1": "Speak English in 7 days.",
+   "visible": "home",
+   "current": "Home",
+   "canon": "https://week2speak.com/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/speech-mode/": {
+   "title": "Speech Mode: English Speaking Practice | Week2Speak",
+   "h1": "Speech Mode: English speaking practice",
+   "visible": "speak",
+   "current": "Speech ModeSpeak",
+   "canon": "https://week2speak.com/speech-mode/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/games/": {
+   "title": "English Speaking Games for Beginners | Week2Speak",
+   "h1": "English speaking games",
+   "visible": "games",
+   "current": "Games",
+   "canon": "https://week2speak.com/games/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/shadowing/": {
+   "title": "English Shadowing Practice for Beginners | Week2Speak",
+   "h1": "English shadowing studio",
+   "visible": "shadow",
+   "current": "ShadowingShadow",
+   "canon": "https://week2speak.com/shadowing/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/7-day-sprint/": {
+   "title": "7-Day English Speaking Sprint | Week2Speak",
+   "h1": "The 7-Day English Speaking Sprint",
+   "visible": "sprint",
+   "current": "7-Day SprintSprint",
+   "canon": "https://week2speak.com/7-day-sprint/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/course/": {
+   "title": "Free 7-Lesson English Speaking Course | Week2Speak",
+   "h1": "Free English speaking course",
+   "visible": "course",
+   "current": "Course",
+   "canon": "https://week2speak.com/course/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/tutor/": {
+   "title": "Tutor view | Week2Speak",
+   "h1": "Tutor view",
+   "visible": "tutor",
+   "current": "Tutor view",
+   "canon": "https://week2speak.com/tutor/",
+   "mic": true,
+   "robots": "noindex,follow"
+  },
+  "/join/": {
+   "title": "Join the Week2Speak Founding Cohort",
+   "h1": "Join Week2Speak",
+   "visible": "join",
+   "canon": "https://week2speak.com/join/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/common-mistakes/": {
+   "title": "16 English Mistakes Spanish Speakers Make | Week2Speak",
+   "h1": "16 English mistakes Spanish speakers make",
+   "visible": "",
+   "canon": "https://week2speak.com/common-mistakes/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/about/": {
+   "title": "How Week2Speak Teaches English",
+   "h1": "How Week2Speak teaches English",
+   "visible": "",
+   "canon": "https://week2speak.com/about/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  },
+  "/privacy/": {
+   "title": "Privacy Notice | Week2Speak",
+   "h1": "Privacy notice",
+   "visible": "",
+   "canon": "https://week2speak.com/privacy/",
+   "mic": true,
+   "robots": "index,follow,max-image-preview:large"
+  }
+ },
+ "bad": [],
+ "go": "/games/ clip=undefined",
+ "fixes": 2,
+ "jm": "Sign-ups open soon. Check back in a few days.",
+ "gm": "Where is the bus station? Say it out loud.",
+ "xp": "20 XP",
+ "over": {
+  "/": 0,
+  "/speech-mode/": 0,
+  "/games/": 0,
+  "/shadowing/": 0,
+  "/7-day-sprint/": 0,
+  "/course/": 0,
+  "/tutor/": 0,
+  "/join/": 0,
+  "/common-mistakes/": 0,
+  "/about/": 0,
+  "/privacy/": 0
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "m/": {
+  "cls": 0.002,
+  "over": 0,
+  "sw": 361,
+  "cw": 360,
+  "contrast": [
+   "Real sentences, out  4.48"
+  ]
+ },
+ "m/speech-mode/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Pick a scene and ans 4.48"
+  ]
+ },
+ "m/games/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Five games with a ne 4.48"
+  ]
+ },
+ "m/shadowing/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Shadowing means spea 4.48"
+  ]
+ },
+ "m/7-day-sprint/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Six tasks a day, abo 4.48"
+  ]
+ },
+ "m/course/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Seven lessons, one a 4.48"
+  ]
+ },
+ "m/tutor/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "What a tutor sees be 4.48"
+  ]
+ },
+ "m/join/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "The founding cohort  4.48"
+  ]
+ },
+ "m/common-mistakes/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Most mistakes Spanis 4.48",
+   "I'm 25 years old. 4.38"
+  ]
+ },
+ "m/about/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Week2Speak gets Span 4.48"
+  ]
+ },
+ "m/privacy/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "What personal data W 4.48"
+  ]
+ },
+ "d/": {
+  "cls": 0.002,
+  "over": 1,
+  "sw": 361,
+  "cw": 360,
+  "contrast": [
+   "Real sentences, out  4.48"
+  ]
+ },
+ "d/speech-mode/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Pick a scene and ans 4.48"
+  ]
+ },
+ "d/games/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Five games with a ne 4.48"
+  ]
+ },
+ "d/shadowing/": {
+  "cls": 0.186,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Shadowing means spea 4.48"
+  ]
+ },
+ "d/7-day-sprint/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Six tasks a day, abo 4.48"
+  ]
+ },
+ "d/course/": {
+  "cls": 0,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Seven lessons, one a 4.48"
+  ]
+ },
+ "d/tutor/": {
+  "cls": 0.224,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "What a tutor sees be 4.48"
+  ]
+ },
+ "d/join/": {
+  "cls": 0.001,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "The founding cohort  4.48"
+  ]
+ },
+ "d/common-mistakes/": {
+  "cls": 0.001,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Most mistakes Spanis 4.48",
+   "I'm 25 years old. 4.38"
+  ]
+ },
+ "d/about/": {
+  "cls": 0.001,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "Week2Speak gets Span 4.48"
+  ]
+ },
+ "d/privacy/": {
+  "cls": 0.001,
+  "over": 0,
+  "sw": 360,
+  "cw": 360,
+  "contrast": [
+   "What personal data W 4.48"
+  ]
+ }
+}

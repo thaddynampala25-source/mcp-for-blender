@@ -1,0 +1,379 @@
+{
+ "1-landing-360x640": {
+  "state": "landing",
+  "vh": 640,
+  "scrollY": 0,
+  "barBottom": 640,
+  "barTop": 564,
+  "barH": 76,
+  "stageH": 516,
+  "face": [
+   183,
+   221
+  ],
+  "faceShare": 0.42,
+  "faceClear": 160,
+  "nav": 48,
+  "overflow": 0
+ },
+ "2-tutor-speaking-360x640": {
+  "state": "turn",
+  "vh": 640,
+  "scrollY": 0,
+  "barBottom": 640,
+  "barTop": 564,
+  "barH": 76,
+  "stageH": 516,
+  "face": [
+   182,
+   219
+  ],
+  "faceShare": 0.42,
+  "faceClear": 237,
+  "nav": 48,
+  "overflow": 0
+ },
+ "3-your-turn-mic-live-360x640": {
+  "state": "turn",
+  "vh": 640,
+  "scrollY": 0,
+  "barBottom": 640,
+  "barTop": 564,
+  "barH": 76,
+  "stageH": 516,
+  "face": [
+   179,
+   220
+  ],
+  "faceShare": 0.42,
+  "faceClear": 236,
+  "nav": 48,
+  "overflow": 0
+ },
+ "4-correction-360x640": {
+  "state": "speaking",
+  "vh": 640,
+  "scrollY": 0,
+  "barBottom": 640,
+  "barTop": 564,
+  "barH": 76,
+  "stageH": 516,
+  "face": [
+   181,
+   221
+  ],
+  "faceShare": 0.42,
+  "faceClear": 107,
+  "nav": 48,
+  "overflow": 0
+ },
+ "5-help-me-360x640": {
+  "state": "turn",
+  "vh": 640,
+  "scrollY": 0,
+  "barBottom": 640,
+  "barTop": 564,
+  "barH": 76,
+  "stageH": 516,
+  "face": [
+   176,
+   219
+  ],
+  "faceShare": 0.42,
+  "faceClear": 77,
+  "nav": 48,
+  "overflow": 0
+ },
+ "6-scene-complete-360x640": {
+  "state": "done",
+  "vh": 640,
+  "scrollY": 0,
+  "barBottom": 640,
+  "barTop": 564,
+  "barH": 76,
+  "stageH": 516,
+  "face": [
+   178,
+   219
+  ],
+  "faceShare": 0.42,
+  "faceClear": 63,
+  "nav": 48,
+  "overflow": 0
+ },
+ "7-sheet-360x640": {
+  "state": "speaking",
+  "vh": 640,
+  "scrollY": 0,
+  "barBottom": 640,
+  "barTop": 564,
+  "barH": 76,
+  "stageH": 516,
+  "face": [
+   181,
+   219
+  ],
+  "faceShare": 0.42,
+  "faceClear": 237,
+  "nav": 48,
+  "overflow": 0
+ },
+ "8-keyboard-open-360x640": {
+  "state": "turn",
+  "vh": 358,
+  "scrollY": 0,
+  "barBottom": 358,
+  "barTop": 282,
+  "barH": 76,
+  "stageH": 234,
+  "face": [
+   180,
+   147
+  ],
+  "faceShare": 0.34,
+  "faceClear": 23,
+  "nav": 48,
+  "overflow": 0
+ },
+ "errors-360x640": [],
+ "1-landing-390x844": {
+  "state": "landing",
+  "vh": 844,
+  "scrollY": 0,
+  "barBottom": 844,
+  "barTop": 768,
+  "barH": 76,
+  "stageH": 720,
+  "face": [
+   199,
+   268
+  ],
+  "faceShare": 0.55,
+  "faceClear": 317,
+  "nav": 48,
+  "overflow": 0
+ },
+ "2-tutor-speaking-390x844": {
+  "state": "speaking",
+  "vh": 844,
+  "scrollY": 0,
+  "barBottom": 844,
+  "barTop": 768,
+  "barH": 76,
+  "stageH": 720,
+  "face": [
+   198,
+   264
+  ],
+  "faceShare": 0.55,
+  "faceClear": 396,
+  "nav": 48,
+  "overflow": 0
+ },
+ "3-your-turn-mic-live-390x844": {
+  "state": "turn",
+  "vh": 844,
+  "scrollY": 0,
+  "barBottom": 844,
+  "barTop": 768,
+  "barH": 76,
+  "stageH": 720,
+  "face": [
+   191,
+   265
+  ],
+  "faceShare": 0.55,
+  "faceClear": 395,
+  "nav": 48,
+  "overflow": 0
+ },
+ "4-correction-390x844": {
+  "state": "turn",
+  "vh": 844,
+  "scrollY": 0,
+  "barBottom": 844,
+  "barTop": 768,
+  "barH": 76,
+  "stageH": 720,
+  "face": [
+   201,
+   264
+  ],
+  "faceShare": 0.55,
+  "faceClear": 288,
+  "nav": 48,
+  "overflow": 0
+ },
+ "5-help-me-390x844": {
+  "state": "turn",
+  "vh": 844,
+  "scrollY": 0,
+  "barBottom": 844,
+  "barTop": 768,
+  "barH": 76,
+  "stageH": 720,
+  "face": [
+   199,
+   266
+  ],
+  "faceShare": 0.55,
+  "faceClear": 184,
+  "nav": 48,
+  "overflow": 0
+ },
+ "6-scene-complete-390x844": {
+  "state": "done",
+  "vh": 844,
+  "scrollY": 0,
+  "barBottom": 844,
+  "barTop": 768,
+  "barH": 76,
+  "stageH": 720,
+  "face": [
+   196,
+   264
+  ],
+  "faceShare": 0.55,
+  "faceClear": 211,
+  "nav": 48,
+  "overflow": 0
+ },
+ "7-sheet-390x844": {
+  "state": "turn",
+  "vh": 844,
+  "scrollY": 0,
+  "barBottom": 844,
+  "barTop": 768,
+  "barH": 76,
+  "stageH": 720,
+  "face": [
+   197,
+   265
+  ],
+  "faceShare": 0.55,
+  "faceClear": 395,
+  "nav": 48,
+  "overflow": 0
+ },
+ "8-keyboard-open-390x844": {
+  "state": "turn",
+  "vh": 473,
+  "scrollY": 0,
+  "barBottom": 473,
+  "barTop": 397,
+  "barH": 76,
+  "stageH": 349,
+  "face": [
+   191,
+   179
+  ],
+  "faceShare": 0.42,
+  "faceClear": 106,
+  "nav": 48,
+  "overflow": 0
+ },
+ "errors-390x844": [],
+ "1-landing-1440x900": {
+  "state": "landing",
+  "vh": 900,
+  "scrollY": 0,
+  "barBottom": 880,
+  "barTop": 792,
+  "barH": 88,
+  "stageH": 802,
+  "face": [
+   462,
+   317
+  ],
+  "faceShare": 0.43,
+  "faceClear": 376,
+  "nav": 58,
+  "overflow": 0
+ },
+ "2-tutor-speaking-1440x900": {
+  "state": "speaking",
+  "vh": 900,
+  "scrollY": 0,
+  "barBottom": 880,
+  "barTop": 792,
+  "barH": 88,
+  "stageH": 802,
+  "face": [
+   456,
+   319
+  ],
+  "faceShare": 0.43,
+  "faceClear": 457,
+  "nav": 58,
+  "overflow": 0
+ },
+ "3-your-turn-mic-live-1440x900": {
+  "state": "turn",
+  "vh": 900,
+  "scrollY": 0,
+  "barBottom": 880,
+  "barTop": 792,
+  "barH": 88,
+  "stageH": 802,
+  "face": [
+   459,
+   316
+  ],
+  "faceShare": 0.43,
+  "faceClear": 460,
+  "nav": 58,
+  "overflow": 0
+ },
+ "4-correction-1440x900": {
+  "state": "speaking",
+  "vh": 900,
+  "scrollY": 0,
+  "barBottom": 880,
+  "barTop": 792,
+  "barH": 88,
+  "stageH": 802,
+  "face": [
+   455,
+   318
+  ],
+  "faceShare": 0.43,
+  "faceClear": 363,
+  "nav": 58,
+  "overflow": 0
+ },
+ "5-help-me-1440x900": {
+  "state": "turn",
+  "vh": 900,
+  "scrollY": 0,
+  "barBottom": 880,
+  "barTop": 792,
+  "barH": 88,
+  "stageH": 802,
+  "face": [
+   450,
+   316
+  ],
+  "faceShare": 0.43,
+  "faceClear": 292,
+  "nav": 58,
+  "overflow": 0
+ },
+ "6-scene-complete-1440x900": {
+  "state": "done",
+  "vh": 900,
+  "scrollY": 0,
+  "barBottom": 880,
+  "barTop": 792,
+  "barH": 88,
+  "stageH": 802,
+  "face": [
+   457,
+   317
+  ],
+  "faceShare": 0.43,
+  "faceClear": 271,
+  "nav": 58,
+  "overflow": 0
+ },
+ "errors-1440x900": []
+}

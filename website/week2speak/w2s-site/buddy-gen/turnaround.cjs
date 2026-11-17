@@ -1,0 +1,12 @@
+// Turnaround of the shipped Buddies, rendered by the site's own runtime: front, three-quarter, side, back and a face close-up.
+const {chromium} = require('playwright'); const fs = require('fs');
+(async () => { const out = process.argv[2] || 'audit/after'; const b = await chromium.launch({args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist']});
+  for (const [id, name] of [['mila', 'ruby'], ['rio', 'max']]) { const ctx = await b.newContext({viewport: {width: 1100, height: 900}}); const p = await ctx.newPage(); p.on('pageerror', e => console.log('ERR', e.message));
+    await p.addInitScript(i => { try { const s = JSON.parse(localStorage.getItem('w2s.v1') || '{}'); s.buddy = i; localStorage.setItem('w2s.v1', JSON.stringify(s)); } catch (e) {} }, id);
+    await p.goto('http://localhost:8765/speech-mode/', {waitUntil: 'networkidle'}); await p.waitForFunction(() => window.W2SBuddies && window.W2SBuddies.ready, null, {timeout: 90000}); await p.evaluate(() => { window.W2SBuddies.lockQuality = true; }); await p.waitForTimeout(2600);
+    const imgs = []; for (const [rot, frame] of [[0, 'full'], [-0.75, 'full'], [-Math.PI / 2, 'full'], [Math.PI, 'full'], [-0.3, 'face'], [0, 'face']]) { await p.evaluate(o => window.W2SBuddies.view(o), {rot, frame, blink: 0}); await p.waitForTimeout(500); imgs.push(await p.evaluate(() => window.W2SBuddies.snap())); }
+    await p.evaluate(() => { window.W2SBuddies.view({rot: -0.25, frame: 'face', blink: 1}); }); await p.waitForTimeout(500); imgs.push(await p.evaluate(() => window.W2SBuddies.snap()));   // eyelids closed
+    await p.evaluate(() => { window.W2SBuddies.view({rot: -0.25, frame: 'face', blink: 0}); window.W2SBuddies.say('A', 3); }); await p.waitForTimeout(500); imgs.push(await p.evaluate(() => window.W2SBuddies.snap()));   // mouth open
+    const sheet = await ctx.newPage(); await sheet.setViewportSize({width: 1640, height: 700}); await sheet.setContent('<body style="margin:0;display:flex;background:linear-gradient(#EEF1FF,#C9D2FF)">' + imgs.map(i => '<img style="height:250px" src="' + i + '">').join('') + '</body>'); await sheet.waitForTimeout(300);
+    const w = await sheet.evaluate(() => document.body.scrollWidth); await sheet.screenshot({path: out + '/turnaround-' + name + '.png', clip: {x: 0, y: 0, width: Math.min(1640, w), height: 250}}); console.log(name, 'sheet width', w); await ctx.close(); }
+  await b.close(); })();

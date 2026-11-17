@@ -1,0 +1,19 @@
+{
+  "name": "week2speak",
+  "private": true,
+  "description": "Week2Speak website: static multi-page site built by Python scripts, with 3D Language Buddies (three.js).",
+  "scripts": {
+    "build": "cd w2s-site && python3 apply_sprint.py && SITE_URL=https://week2speak.com python3 sitebuild.py",
+    "serve": "cd w2s-site/dist && python3 -m http.server 8765",
+    "test": "cd w2s-site && node test.cjs",
+    "test:buddies": "cd w2s-site && node buddy_test.cjs audit/after/buddy-test",
+    "icons": "cd w2s-site && node icons.cjs",
+    "models": "cd w2s-site && node buddy-gen/gen.cjs",
+    "posters": "cd w2s-site && node buddy-gen/poster.cjs",
+    "turnaround": "cd w2s-site && node buddy-gen/turnaround.cjs audit/after",
+    "promo": "cd w2s-site && node promo/make.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

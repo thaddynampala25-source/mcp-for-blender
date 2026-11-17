@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><style>html,body{margin:0;height:100%;background:#dfe5ff}canvas{display:block;width:100vw;height:100vh}</style><canvas id="c"></canvas>
+<script type="module">
+import * as THREE from '/assets/vendor/three-0.170.0.module.min.js';
+import {GLTFLoader} from '/assets/vendor/GLTFLoader-0.170.0.js';
+const q = new URLSearchParams(location.search), name = q.get('m') || 'ruby', view = q.get('view') || 'front';
+const r = new THREE.WebGLRenderer({canvas: document.getElementById('c'), antialias: true, preserveDrawingBuffer: true}); r.setPixelRatio(1); r.setSize(innerWidth, innerHeight, false); r.setClearColor(0xdfe5ff);
+const scene = new THREE.Scene(), cam = new THREE.PerspectiveCamera(26, innerWidth / innerHeight, 0.1, 50);
+scene.add(new THREE.HemisphereLight(0xffffff, 0xaab6f0, 1.15));
+const key = new THREE.DirectionalLight(0xfff4e6, 2.3); key.position.set(2.2, 3.4, 4); scene.add(key);
+const rim = new THREE.DirectionalLight(0xffc98a, 3.0); rim.position.set(-2.6, 2.6, -3.2); scene.add(rim);
+const fill = new THREE.DirectionalLight(0xcfd8ff, 0.7); fill.position.set(-3, 1, 2.5); scene.add(fill);
+new GLTFLoader().load('/__gen/' + name + '.glb', g => { const m = g.scene, ex = m.userData.w2s || {}; scene.add(m);
+  m.traverse(o => { if (/^Lid[LR]$/.test(o.name)) o.rotation.x = +(q.get('lid') || ex.lidOpen); if (/^LowLid/.test(o.name)) o.rotation.x = ex.lowLid; if (o.morphTargetDictionary && q.get('morph')) q.get('morph').split(',').forEach(s => { const [k, v] = s.split(':'); if (k in o.morphTargetDictionary) o.morphTargetInfluences[o.morphTargetDictionary[k]] = +v; }); });
+  if (q.get('pose')) { const b = n => m.getObjectByName(n); b('LeftArm').rotation.set(0.25, 0, -0.1); b('LeftForeArm').rotation.set(-1.45, 0.2, -0.5); b('RightArm').rotation.z = -2.0; b('RightForeArm').rotation.z = -0.6; b('Head').rotation.z = 0.12; }
+  const rot = {front: 0, tq: -0.7, side: -Math.PI / 2, back: Math.PI, face: -0.25, face0: 0}[view]; m.rotation.y = rot;
+  if (view.startsWith('face')) { cam.position.set(0, 1.72, 2.9); cam.lookAt(0, 1.68, 0); } else { cam.position.set(0, 1.2, 7.4); cam.lookAt(0, 1.08, 0); }
+  r.render(scene, cam); document.title = 'ready ' + r.info.render.triangles + ' tris ' + r.info.render.calls + ' calls'; }, undefined, e => { document.title = 'error ' + e.message; });
+</script>

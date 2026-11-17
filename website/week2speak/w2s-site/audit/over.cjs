@@ -1,0 +1,4 @@
+const {chromium} = require('playwright');
+(async () => { const b = await chromium.launch(); const p = await b.newPage({viewport: {width: 360, height: 640}}); await p.goto('http://localhost:8765/', {waitUntil: 'networkidle'}); await p.waitForTimeout(1500);
+  console.log(JSON.stringify(await p.evaluate(() => { const out = []; document.querySelectorAll('body *').forEach(e => { const r = e.getBoundingClientRect(); if (r.width && r.right > 360.2 && r.right < 364) out.push(e.tagName + '#' + e.id + '.' + String(e.className).slice(0, 30) + ' ' + r.left.toFixed(1) + '..' + r.right.toFixed(2) + ' w=' + r.width.toFixed(2) + ' ' + getComputedStyle(e).position + ' tr=' + getComputedStyle(e).transform.slice(0, 30)); }); return {sw: document.documentElement.scrollWidth, out: out.slice(0, 14)}; })));
+  await b.close(); })();

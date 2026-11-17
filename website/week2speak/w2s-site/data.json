@@ -1,0 +1,259 @@
+{
+ "DAYS": [
+  {
+   "title": "Me",
+   "goal": "I can introduce myself. Say five true sentences about yourself, without reading.",
+   "tasks": [
+    "Lesson 1 and Sound Lab (sp- and st-)",
+    "Shadow \"My script\"",
+    "Word Order and Speech Mode: Meet someone new",
+    "Voice note: Tell me about yourself. 30 seconds, no reading."
+   ]
+  },
+  {
+   "title": "Order and ask",
+   "goal": "I can order food and drink. Order a drink and something to eat, and pay.",
+   "tasks": [
+    "Lesson 2 and Sound Lab (the English h)",
+    "Shadow \"Ordering coffee\"",
+    "Fill the Gap and Speech Mode: Café order",
+    "Voice note: Order your real breakfast in English. 30 seconds."
+   ]
+  },
+  {
+   "title": "Questions",
+   "goal": "I can ask for what I need. Ask where, what time and how, and ask for something politely.",
+   "tasks": [
+    "Lesson 3 and Sound Lab (short i and long ee)",
+    "Shadow \"At the airport\"",
+    "Flash Translate and Speech Mode: Airport check-in",
+    "Voice note: Ask me three questions. I will answer them."
+   ]
+  },
+  {
+   "title": "Yesterday",
+   "goal": "I can say what I did. Say three things you did yesterday and how it was.",
+   "tasks": [
+    "Lesson 4 and Sound Lab (-ed endings)",
+    "Shadow \"Yesterday\"",
+    "Word Order and Speech Mode: Chat about yesterday",
+    "Voice note: What did you do yesterday? 45 seconds."
+   ]
+  },
+  {
+   "title": "Opinions",
+   "goal": "I can give my opinion. Say what you think, give a reason, and agree or disagree.",
+   "tasks": [
+    "Lesson 5 and Sound Lab (th)",
+    "Shadow \"My opinion\"",
+    "Fill the Gap and Speech Mode: Coffee chat: opinions",
+    "Voice note: The city or the beach? Say why. 45 seconds."
+   ]
+  },
+  {
+   "title": "Keep talking",
+   "goal": "I can keep a conversation going. Ask for a repeat, ask what a word means, and send the question back.",
+   "tasks": [
+    "Lesson 6 and Sound Lab (v and b)",
+    "Shadow \"Keep talking\"",
+    "Flash Translate and Speech Mode: Meet someone new, without Help me",
+    "Voice note: The first minute of your talk: who you are and what you like."
+   ]
+  },
+  {
+   "title": "The 2-minute talk",
+   "goal": "I can talk for two minutes. Give a two-minute talk in four parts, with no script.",
+   "tasks": [
+    "Lesson 7 and Sound Lab",
+    "Shadow your own talk",
+    "Rehearse against the 2-minute clock",
+    "Day 7 call: give the talk to your tutor"
+   ]
+  }
+ ],
+ "COURSE": [
+  {
+   "phr": [
+    "Hi, I'm Ana.",
+    "I'm from Lima, in Peru.",
+    "I'm a nurse.",
+    "I'm learning English because I want to travel.",
+    "I like music and football."
+   ],
+   "bad": "I have thirty years.",
+   "good": "I'm thirty.",
+   "rule": "age"
+  },
+  {
+   "phr": [
+    "I'd like a coffee, please.",
+    "Can I have a sandwich, please?",
+    "How much is it?",
+    "I'm hungry.",
+    "Here you are. Thank you."
+   ],
+   "bad": "I have hungry.",
+   "good": "I'm hungry.",
+   "rule": "state"
+  },
+  {
+   "phr": [
+    "Where is the bathroom?",
+    "What time is the flight?",
+    "Is this seat free?",
+    "Could I have a window seat, please?",
+    "How do I get to the station?"
+   ],
+   "bad": "Is very far.",
+   "good": "It's very far.",
+   "rule": "subject"
+  },
+  {
+   "phr": [
+    "Yesterday I worked.",
+    "I went to the gym.",
+    "I had dinner with my family.",
+    "Last week I watched a film.",
+    "It was fun."
+   ],
+   "bad": "The last week I worked.",
+   "good": "Last week I worked.",
+   "rule": "article"
+  },
+  {
+   "phr": [
+    "I think it's a good idea.",
+    "I like it because it's easy.",
+    "I agree with you.",
+    "I don't agree.",
+    "It depends on the price."
+   ],
+   "bad": "I am agree with you.",
+   "good": "I agree with you.",
+   "rule": "agree"
+  },
+  {
+   "phr": [
+    "Sorry, could you say that again?",
+    "What does this word mean?",
+    "How do you say this in English?",
+    "What I mean is this.",
+    "What about you?"
+   ],
+   "bad": "I don't know nothing about it.",
+   "good": "I don't know anything about it.",
+   "rule": "negative"
+  },
+  {
+   "phr": [
+    "Today I'm going to talk about me.",
+    "First, I like playing football.",
+    "Another thing is my family.",
+    "To finish, next year I'm going to travel.",
+    "Thank you for listening."
+   ],
+   "bad": "I like play football.",
+   "good": "I like playing football.",
+   "rule": "gerund"
+  }
+ ],
+ "RULES": [
+  {
+   "id": "age",
+   "name": "Age with \"have\"",
+   "tip": "Use \"be\" for age: \"I am 25 years old.\"",
+   "es": "Spanish says \"tengo 25 años\"."
+  },
+  {
+   "id": "state",
+   "name": "\"Have\" for feelings",
+   "tip": "Use \"be\": \"I am hungry\", \"you are right\".",
+   "es": "Spanish says \"tengo hambre\"."
+  },
+  {
+   "id": "agree",
+   "name": "\"Be agree\"",
+   "tip": "\"Agree\" is already the verb: \"I agree.\"",
+   "es": "Spanish says \"estoy de acuerdo\"."
+  },
+  {
+   "id": "people",
+   "name": "\"People is\"",
+   "tip": "\"People\" is plural: \"people are\".",
+   "es": "\"La gente\" is singular in Spanish."
+  },
+  {
+   "id": "subject",
+   "name": "Missing subject",
+   "tip": "English always needs a subject: \"It is raining.\"",
+   "es": "Spanish can drop it: \"está lloviendo\"."
+  },
+  {
+   "id": "depend",
+   "name": "\"Depend of\"",
+   "tip": "It is \"depend on\".",
+   "es": "Spanish says \"depende de\"."
+  },
+  {
+   "id": "explain",
+   "name": "\"Explain me\" / \"say me\"",
+   "tip": "Say \"explain it to me\" or \"tell me\".",
+   "es": "Spanish says \"explícame\", \"dime\"."
+  },
+  {
+   "id": "purpose",
+   "name": "\"For\" + verb",
+   "tip": "Use \"to\" for a purpose: \"to learn English\".",
+   "es": "Spanish says \"para aprender\"."
+  },
+  {
+   "id": "article",
+   "name": "\"The last week\"",
+   "tip": "No \"the\": \"last week\", \"next year\".",
+   "es": "Spanish says \"la semana pasada\"."
+  },
+  {
+   "id": "compare",
+   "name": "\"More better\"",
+   "tip": "One comparative is enough: \"better\", \"easier\".",
+   "es": "A copy of \"más\"."
+  },
+  {
+   "id": "make",
+   "name": "\"Do a mistake\"",
+   "tip": "These go with \"make\": \"make a mistake\".",
+   "es": "\"Hacer\" is both do and make."
+  },
+  {
+   "id": "married",
+   "name": "\"Married with\"",
+   "tip": "It is \"married to\".",
+   "es": "Spanish says \"casado con\"."
+  },
+  {
+   "id": "want",
+   "name": "\"Want that you\"",
+   "tip": "Say \"I want you to come.\"",
+   "es": "Spanish says \"quiero que vengas\"."
+  },
+  {
+   "id": "negative",
+   "name": "Double negative",
+   "tip": "Use \"anything\" or \"anybody\" after \"not\".",
+   "es": "Spanish doubles it: \"no tengo nada\"."
+  },
+  {
+   "id": "since",
+   "name": "Present with \"since\"",
+   "tip": "Use \"have\": \"I have lived here since 2020.\"",
+   "es": "Spanish uses the present: \"vivo aquí desde\"."
+  },
+  {
+   "id": "gerund",
+   "name": "\"Like\" + plain verb",
+   "tip": "After \"like\", use -ing: \"I like playing football.\"",
+   "es": "Spanish says \"me gusta jugar\"."
+  }
+ ],
+ "CLIPS": null
+}

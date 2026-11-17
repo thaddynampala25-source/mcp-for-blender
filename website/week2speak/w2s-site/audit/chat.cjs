@@ -1,0 +1,4 @@
+const {chromium} = require('playwright');
+(async () => { const b = await chromium.launch(); const p = await b.newPage({viewport: {width: 1440, height: 900}}); await p.goto('http://localhost:8765/speech-mode/', {waitUntil: 'networkidle'}); await p.waitForTimeout(800); await p.click('#smStart'); await p.waitForTimeout(600);
+  console.log(JSON.stringify(await p.evaluate(() => { const r = e => { const b = e.getBoundingClientRect(); return Math.round(b.top) + '..' + Math.round(b.bottom); }; const g = document.querySelector('.sm-g-chat'); const cs = getComputedStyle(g); return {g: r(g), disp: cs.display, dir: cs.flexDirection, kids: [...g.children].map(k => k.tagName + '.' + k.className + ' ' + r(k) + ' flex=' + getComputedStyle(k).flex + ' mh=' + getComputedStyle(k).minHeight), acc: [...document.querySelector('.sm-g-accent').children].map(k => k.tagName + ' ' + r(k))}; })));
+  await b.close(); })();

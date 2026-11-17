@@ -1,0 +1,8 @@
+node_modules/
+!w2s-show/node_modules/
+__pycache__/
+.DS_Store
+*.log
+# never commit API keys
+.env
+*.key
